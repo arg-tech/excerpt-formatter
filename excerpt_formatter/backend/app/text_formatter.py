@@ -16,7 +16,7 @@ _speaker_prefix = "AudienceMember"
 _part_number_pattern = re.compile(r"([P|p]art [\d][\d]?[\d]?)")
 _time_format = "%H:%M:%S"
 
-_line_number_pattern = re.compile(r"\d\d\d / \d\d\d?")
+_line_number_pattern = re.compile(r"\w\w\w / \d\d\d?")
 _offset_pattern = re.compile(r" ?\t?([\d][\d]?:[\d][\d]?:[\d][\d])")
 _new_paragraph_pattern = re.compile(r"\d\d\d / \d\d\d?	 {15}")
 
